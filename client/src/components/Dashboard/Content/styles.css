@@ -1,0 +1,55 @@
+.dashboard{
+    background-color: white;
+    margin: 6rem 0rem;
+}
+.dashboard-filter{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar{
+    display: flex;
+    position: relative;
+    width: 70%;
+}
+.search-icon{
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search > input{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    width: 40vw;
+    border-radius: 5px;
+    border: 2px solid rgba(88, 87, 87, 0.822);
+}
+
+
+.filter{
+    display: flex;
+    gap: 1rem;
+}
+.pagination{
+    padding: 0rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.pagination-btn{
+    display: flex;
+    gap: 1rem;
+}
+.pagination-btn > button{
+    border: 1px solid rgba(88, 87, 87, 0.822);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+

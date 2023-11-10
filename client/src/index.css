@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --black: #1b1b1b;
+  --white: #ffffff;
+  --primary: #535bf2;
+  --secondary: #535bf2;
+  --background: #f9f9f9;
+  --lightpurple: #D1CFED;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+  background-color: var(--lightpurple);
+  height: 90vh;
+}
+.account-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  width: 40vw;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+  padding-bottom: 1rem;
+}
+.loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

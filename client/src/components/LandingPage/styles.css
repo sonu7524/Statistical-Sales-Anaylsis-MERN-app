@@ -1,0 +1,35 @@
+.home{
+    position: relative;
+    background-color: var(--lightpurple);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    height: 88vh;
+    background-color: white;
+    margin: 5rem 0rem;
+    z-index: -1;
+}
+.home-content{
+    width: 55%;
+    margin-left: 2rem;
+    z-index: 5;
+    margin-top: 2rem;
+}
+.home-title{
+    font-size: 4rem;
+    color: var(--secondary);
+    text-shadow: 2px 2px 2px #000000;
+    
+}
+.home-subtitle{
+    font-size: 2rem;    
+}
+.home-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+   width: 75%;
+}
+.home-btn{
+    margin-top: 2rem;
+}
